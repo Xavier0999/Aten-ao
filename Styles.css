@@ -1,0 +1,58 @@
+body,
+html {
+  height: 100%;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  height: 220px;
+  width: 500px;
+  border-radius: 0px;
+  border: 1px solid;
+  padding: 10px;
+  background-color: white;
+  align-items: center;
+  flex-direction: column;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.botoes {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  justify-content: space-between;
+}
+.botao1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  padding: 7px;
+  border: solid black 1px;
+  background-color: white;
+  width: 50px;
+}
+.botao2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  border: solid black 1px;
+  background-color: white;
+  width: 200px;
+}
+.fechar svg {
+  position: absolute;
+  right: -10px;
+  top: -15px;
+  border: solid black 1px;
+  border-radius: 100%;
+  width: 20px;
+  height: 20px;
+  padding: 5px;
+  background-color: white;
+}
